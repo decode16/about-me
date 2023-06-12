@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigation</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            text-transform: capitalize;
+        }
+
+        body {
+            background-color: #0f2c43;
+            /* height: 200vh;
+            width: 100%; */
+        }
+
+        .header {
+            position: fixed;
+            display: flex;
+            justify-content: space-between;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, .4);
+            position: fixed;
+            align-items: center;
+            padding: 23px 5%;
+        }
+
+        .logo {
+            color: #00b0f6;
+            font-size: 32px;
+            text-decoration: none;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        .navbar a {
+            color: #ffffff;
+            margin-left: 36px;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 600;
+            transition: .3s ease-in;
+            cursor: pointer;
+        }
+
+        .navbar a:hover,
+        .navbar a.active {
+            color: #00b0f6;
+        }
+
+        .about-me {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .about {
+            /* display: flex; */
+
+            /* justify-content: center; */
+            margin-top: 90px;
+            font-size: 50px;
+            color: #ffffff;
+            font-weight: 700;
+        }
+
+        .about span {
+            color: #00b0f6;
+            /* margin-left: 8px; */
+        }
+
+        .border-img {
+            border-top: 4px solid #00b0f6;
+            border-bottom: 4px solid #00b0f6;
+            height: 230px;
+            width: 230px;
+            margin-top: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+        }
+
+        .about-img img {
+            border: 4px solid #00b0f6;
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            box-shadow: -1px -1px 11px -3px #01e3ff;
+            ;
+
+            /* margin-top: 90px; */
+        }
+
+        h2 {
+            color: #ffffff;
+            margin-top: 50px;
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .text {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            width: 70%;
+            text-align: center;
+        }
+
+        h2 span {
+            color: #00b0f6;
+        }
+
+        p {
+            color: #ffffff;
+            margin-top: 30px;
+        }
+
+        .btn {
+            margin-top: 30px;
+            border: 2px solid white;
+            padding: 18px 35px;
+            background-color: #0096d1;
+            font-size: 20px;
+            font-weight: 600;
+            border-radius: 7px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Abhiraj</a>
+        <nav class="navbar">
+            <a href="#" class="active">home</a>
+            <a href="#">about</a>
+            <a href="#">education</a>
+            <a href="#">skills</a>
+            <a href="#">contact</a>
+        </nav>
+    </header>
+    <section class="about-me">
+        <h1 class="about"> About <span>me</span></h1>
+        <div class="border-img">
+            <div class="about-img">
+                <img src="/images/last.png" alt="">
+            </div>
+        </div>
+        <div class="text">
+
+            <h2>Frontend <span>debloper!</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui deleniti eum autem laborum vel aliquid
+                reiciendis minus et, ipsam odio similique ipsum cupiditate cumque? Impedit eveniet quos odio facere
+                quaerat. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui deleniti eum autem laborum vel
+                aliquid
+                reiciendis minus et, ipsam odio similique ipsum cupiditate cumque? Impedit eveniet quos odio facere
+                quaerat</p>
+            <div class="btn">read more</div>
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
